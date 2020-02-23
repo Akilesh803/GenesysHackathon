@@ -1,3 +1,15 @@
+"""
+We get the input from Facebook Messenger and then send it to Zapier where our Python code is hosted.
+
+We send the query to Genesys NER API using URL, Header Tokens and Payload in JSON File format.
+The NER API returns a JSON file which we parsed and got keywords.
+
+And then, we sent the keywords to Genesys Knowledge Base API using URL, Header Tokens and Payload in JSON File format.
+The Genesys Knowledge Base API returns the Answer to the question asked by the user as JSON file.
+
+We return this FAQ Answer to ChatFuel and then to Facebook Messenger which displays the answer to the User.
+"""
+
 import json
 
 output = [{'id': 123, 'hello': 'world'}]
