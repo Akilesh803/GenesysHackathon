@@ -2,6 +2,7 @@
 
 //Use this link to access the chatbot service from facebook messenger:
 Facebook Messenger Link : https://m.me/107058280888966?ref=Welcome%20Message
+(Facebook pages are blocked in the wifi provided by SASTRA, so try with mobile data)
 
 Sample inputs : 
 “Can I play games in my Acer predator helios?”
